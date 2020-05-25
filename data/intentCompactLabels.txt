@@ -1,0 +1,17 @@
+schema:currentChampion@football_league
+schema:hasClub[schema:atPlace]@football_league
+schema:hasHonour[schema:honourTitle]@football_player
+schema:hasHonour[schema:inLeague]@football_player
+schema:hasHonour[schema:isHonour]@football_player
+schema:hasMarketValue[schema:hasCurrentValue]@football_player
+schema:hasMatch[schema:vsPointInTime]@football_league
+schema:hasMatch[schema:vsResult]@football_league
+schema:hasMember[schema:sportNumber]@football_club
+schema:hasPlayerProfile[schema:hasNationality]@football_player
+schema:hasPlayerProfile[schema:hasPosition]@football_player
+schema:hasPlayer[schema:playAtPosition]@football_club
+schema:inLeague[schema:winningNumber]@football_club
+schema:isMemberOf[schema:isInClub]@football_player
+schema:isMemberOf[schema:sportNumber]@football_player
+schema:vsWith[schema:vsClub]@football_club
+schema:vsWith[schema:vsResult]@football_club

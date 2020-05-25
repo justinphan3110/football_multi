@@ -1,0 +1,221 @@
+## football_player
+
+vị_trí chơi của sys.football_player --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sys.football_player đá cho vị_trí nào --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sys.football_player thi_đấu cho vị_trí gì --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sys.football_player giữ vị_trí gì --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sys.football_player thi_dấu vị_trí nào --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+vị_trí sys.football_player đang thi_dấu  --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sys.football_player đang giữ vị_trí nào --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sys.football_player đang thuộc vị_trí gì --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+vị_trí sys.football_player đang nắm --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+vị_trí chơi mà sys.football_player đang đấu --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+vị_trí của sys.fooball_player --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sys.football_player đang trấn_giữ vị_trí nào --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+
+sys.football_player đang chơi cho đội_tuyển quốc_gia nào --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+sys.football_player đang đá cho nước nào --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+sys.football_player đang đá cho đội_tuyển nào  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+sys.football_player đang thi đấu cho nước nào  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+sys.football_player đá cho quốc_gia nào  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+nước nào sys.football_player đang đá cho  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+quốc_gia nào sys.football_player đá cho  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+sys.football_player đá ở nước nào  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+sys.football_player đá cho nước nào  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+nước nào sở hữu sys.football_player  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+quốc gia nào sở hữu sys.football_player  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+sys.football_player đang thi đấu trong nước nào  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+
+sys.football_player thuộc đội_bóng đá gì --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sys.football_player đang đá cho đội nào --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sys.football_player đang đá cho câu_lạc_bộ gì --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sys.football_player thuộc đội nào --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sys.football_player chơi câu_lạc_bộ nào --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sys.football_player thi_dấu cho đội nào --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sys.football_player thi cho đội nào --- # --- schema:isMemberOf[schema:isInClub]@football_player
+đội mà sys.football_player đang chơi là gì --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sys.football_player thuộc câu_lạc_bộ nào --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sys.football_player thi_đấu câu_lạc_bộ gì --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sys.football_player thi_đấu cho đội_bóng nào --- # --- schema:isMemberOf[schema:isInClub]@football_player
+
+sys.football_player mang áo số mấy --- # --- schema:isMemberOf[schema:sportNumber]@football_player
+sys.football_player có số áo là bao_nhiêu --- # --- schema:isMemberOf[schema:sportNumber]@football_player
+số áo của sys.football_player số mấy --- # --- schema:isMemberOf[schema:sportNumber]@football_player
+số áo sys.football_player là bao_nhiêu --- # --- schema:isMemberOf[schema:sportNumber]@football_player
+sys.football_player mang áo số bao_nhiêu --- # --- schema:isMemberOf[schema:sportNumber]@football_player
+
+sys.football_player giá_trị chuyển_nhượng --- # --- schema:hasMarketValue[schema:hasCurrentValue]@football_player
+sys.football_player có giá_trị_chuyển_nhượng --- # --- schema:hasMarketValue[schema:hasCurrentValue]@football_player
+sys.football_player bao_nhiêu tiền --- # --- schema:hasMarketValue[schema:hasCurrentValue]@football_player
+sys.football_player bao tiền --- # --- schema:hasMarketValue[schema:hasCurrentValue]@football_player
+sys.football_player giá_trị --- # --- schema:hasMarketValue[schema:hasCurrentValue]@football_player
+giá_trị --- # --- schema:hasMarketValue[schema:hasCurrentValue]@football_player
+
+sys.football_player dành bao_nhiêu cúp vô_địch --- # --- schema:hasHonour[schema:isHonour]@football_player
+sys.football_player có mấy cúp vô_địch --- # --- schema:hasHonour[schema:isHonour]@football_player
+sys.football_player có bao_nhiêu danh_hiệu vô_địch --- # --- schema:hasHonour[schema:isHonour]@football_player
+sys.football_player đạt được bao_nhiêu thắng_lợi tại sys.football_league --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player có bao_nhiêu chiến_thắng ở sys.football_league --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player giật bao_nhiêu cúp tại sys.football_league --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player vô_địch bao_nhiêu lần tại sys.football_league --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player giật mấy cúp tại sys.football_league --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player chiến_thắng mấy lần tại sys.football_league --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player chiến_thắng bao_nhiêu lần tại sys.football_league --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player tại sys.football_league dành chiến_thắng mấy lần --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player ở sys.football_league đạt bao_nhiêu cúp vô_địch --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player tại sys.football_league có bao_nhiêu cúp chiến_thắng --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player trong sys.football_league có bao_nhiêu thắng_lợi --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player sys.football_league có mấy lần vô_địch --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player trong sys.football_league có mấy lần thắng --- # --- schema:hasHonour[schema:inLeague]@football_player
+sys.football_player có mấy danh_hiệu dev.football_player_honour --- # --- schema:hasHonour[schema:honourTitle]@football_player
+sys.football_player bao_nhiêu danh_hiệu dev.football_player_honour --- # --- schema:hasHonour[schema:honourTitle]@football_player
+sys.football_player có mấy dev.football_player_honour --- # --- schema:hasHonour[schema:honourTitle]@football_player
+sys.football_player bao_nhiêu dev.football_player_honour --- # --- schema:hasHonour[schema:honourTitle]@football_player
+
+## football_club
+
+ai mang áo số sys.number tại sys.football_club --- # --- schema:hasMember[schema:sportNumber]@football_club
+sys.football_club áo số sys.number --- # --- schema:hasMember[schema:sportNumber]@football_club
+sys.football_club áo số sys.number là ai --- # --- schema:hasMember[schema:sportNumber]@football_club
+sys.football_club áo số sys.number là cầu_thủ nào --- # --- schema:hasMember[schema:sportNumber]@football_club
+sys.football_club ai mang số sys.number --- # --- schema:hasMember[schema:sportNumber]@football_club
+thành_viên nào mang áo sys.number ở sys.football_club --- # --- schema:hasMember[schema:sportNumber]@football_club
+sys.football_club có ai mang áo số sys.number --- # --- schema:hasMember[schema:sportNumber]@football_club
+đội sys.football_club áo số sys.number là thành_viên nào --- # --- schema:hasMember[schema:sportNumber]@football_club
+số áo sys.number thuộc đội sys.football_club là ai --- # --- schema:hasMember[schema:sportNumber]@football_club
+
+đội sys.football_club dev.football_position --- # --- schema:hasPlayer[schema:playAtPosition]@football_club
+sys.football_club ai giữ vị_trí dev.football_position --- # --- schema:hasPlayer[schema:playAtPosition]@football_club
+câu_lạc_bộ sys.football_club cầu_thủ nào là dev.football_position --- # --- schema:hasPlayer[schema:playAtPosition]@football_club
+đội_bóng sys.football_club dev.football_position do thành_viên nào đảm_nhiệm --- # --- schema:hasPlayer[schema:playAtPosition]@football_club
+sys.football_club cầu_thủ nào là dev.football_position --- # --- schema:hasPlayer[schema:playAtPosition]@football_club
+ai là dev.football_position trong đội sys.football_club --- # --- schema:hasPlayer[schema:playAtPosition]@football_club
+dev.football_position do cầu_thủ nào chơi thuộc sys.football_club --- # --- schema:hasPlayer[schema:playAtPosition]@football_club
+sys.football_club có ai đang chơi ở dev.football_position --- # --- schema:hasPlayer[schema:playAtPosition]@football_club
+
+lịch đá banh sys.football_club --- # --- schema:vsWith[schema:vsClub]@football_club
+lịch đá banh sys.football_club thế_nào --- # --- schema:vsWith[schema:vsClub]@football_club
+lịch thi_đấu giải sys.football_club như thế_nào --- # --- schema:vsWith[schema:vsClub]@football_club
+sys.football_club lịch thi_đấu --- # --- schema:vsWith[schema:vsClub]@football_club
+sys.football_club lịch đấu sys.date --- # --- schema:vsWith[schema:vsClub]@football_club
+sys.football_club sắp chạm_trán đội nào --- # --- schema:vsWith[schema:vsClub]@football_club
+sys.football_club sắp chạm_trán đội nào vào sys.date --- # --- schema:vsWith[schema:vsClub]@football_club
+lịch đấu của đội sys.football_club sắp tới --- # --- schema:vsWith[schema:vsClub]@football_club
+sys.date câu_lạc_bộ sys.football_club chơi với đội nào --- # --- schema:vsWith[schema:vsClub]@football_club
+gần tới đội sys.football_club thi_đấu với đội nào --- # --- schema:vsWith[schema:vsClub]@football_club
+câu_lạc_bộ sys.football_club lịch thi_đấu gần tới --- # --- schema:vsWith[schema:vsClub]@football_club
+sys.date sys.football_club sắp đấu với đội nào sắp tới --- # --- schema:vsWith[schema:vsClub]@football_club
+sys.football_club sắp đấu với đội nào --- # --- schema:vsWith[schema:vsClub]@football_club
+sys.football_club lịch đấu sắp thi với ai --- # --- schema:vsWith[schema:vsClub]@football_club
+lịch đấu của đội sys.football_club gần sys.date --- # --- schema:vsWith[schema:vsClub]@football_club
+đội sys.football_club gặp đối_thủ nào sắp tới --- # --- schema:vsWith[schema:vsClub]@football_club
+đội sys.football_club chạm_trán đối_thủ nào sys.date --- # --- schema:vsWith[schema:vsClub]@football_club
+sys.date sys.football_club thời_gian tới --- # --- schema:vsWith[schema:vsClub]@football_club
+sys.date đội sys.football_club lịch thi thế_nào --- # --- schema:vsWith[schema:vsClub]@football_club
+sys.football_club sắp gặp đội nào --- # --- schema:vsWith[schema:vsClub]@football_club
+
+sys.football_club kết_quả --- # --- schema:vsWith[schema:vsResult]@football_club
+sys.football_club kết_quả đá banh --- # --- schema:vsWith[schema:vsResult]@football_club
+sys.football_club thắng hay thua --- # --- schema:vsWith[schema:vsResult]@football_club
+đội sys.football_club kết_quả thế_nào --- # --- schema:vsWith[schema:vsResult]@football_club
+câu_lạc_bộ sys.football_club có kết_quả như thế_nào  --- # --- schema:vsWith[schema:vsResult]@football_club
+đội sys.football_club thắng thua thế_nào --- # --- schema:vsWith[schema:vsResult]@football_club
+sys.football_club tỷ_số có tốt không --- # --- schema:vsWith[schema:vsResult]@football_club
+đội sys.football_club tỷ_số có thắng không --- # --- schema:vsWith[schema:vsResult]@football_club
+sys.football_club kết_quả có thua không --- # --- schema:vsWith[schema:vsResult]@football_club
+câu_lạc_bộ sys.football_club tỷ_số thua hay thắng --- # --- schema:vsWith[schema:vsResult]@football_club
+đội sys.football_club kết_quả thắng thua như thế_nào --- # --- schema:vsWith[schema:vsResult]@football_club
+sys.football_club thi_đấu tốt không --- # --- schema:vsWith[schema:vsResult]@football_club
+sys.football_club kết_quả thế_nào --- # --- schema:vsWith[schema:vsResult]@football_club
+sys.football_club tỷ_số thắng thế_nào --- # --- schema:vsWith[schema:vsResult]@football_club
+đội sys.football_club tỷ_số thi_đấu thế_nào --- # --- schema:vsWith[schema:vsResult]@football_club
+đội sys.football_club thua thắng tỷ_số ra_sao --- # --- schema:vsWith[schema:vsResult]@football_club
+đội sys.football_club kết_quả ra_sao --- # --- schema:vsWith[schema:vsResult]@football_club
+đội sys.football_club tỷ_số ra_sao --- # --- schema:vsWith[schema:vsResult]@football_club
+đội sys.football_club tỷ_số thắng thua ra_sao --- # --- schema:vsWith[schema:vsResult]@football_club
+
+sys.football_club giật bao_nhiêu cúp tại sys.football_league --- # --- schema:inLeague[schema:winningNumber]@football_club
+sys.football_club vô_địch bao_nhiêu lần tại sys.football_league --- # --- schema:inLeague[schema:winningNumber]@football_club
+sys.football_club giật mấy cúp tại sys.football_league --- # --- schema:inLeague[schema:winningNumber]@football_club
+sys.football_club chiến_thắng mấy lần tại sys.football_league --- # --- schema:inLeague[schema:winningNumber]@football_club
+sys.football_club chiến_thắng bao_nhiêu lần tại sys.football_league --- # --- schema:inLeague[schema:winningNumber]@football_club
+sys.football_club tại sys.football_league dành chiến_thắng mấy lần --- # --- schema:inLeague[schema:winningNumber]@football_club
+sys.football_club ở sys.football_league đạt bao_nhiêu cúp vô_địch --- # --- schema:inLeague[schema:winningNumber]@football_club
+sys.football_club tại sys.football_league có bao_nhiêu cúp chiến_thắng --- # --- schema:inLeague[schema:winningNumber]@football_club
+sys.football_club trong sys.football_league có bao_nhiêu thắng_lợi --- # --- schema:inLeague[schema:winningNumber]@football_club
+sys.football_club sys.football_league có mấy lần vô_địch --- # --- schema:inLeague[schema:winningNumber]@football_club
+sys.football_club trong sys.football_league có mấy lần thắng --- # --- schema:inLeague[schema:winningNumber]@football_club
+
+## football_league
+
+
+sys.football_league sys.date --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league sys.date ra_sao --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league sys.date thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+lịch đá banh sys.football_league --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+lịch đá banh giải sys.football_league --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+lịch thi_đấu sys.football_league --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+lịch thi_đấu của sys.football_league thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+lịch_đấu của sys.football_league thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+lịch tới của sys.football_league thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+lịch trận_đấu của sys.football_league thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+trận của sys.football_league thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+trận_đấu của sys.football_league thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+trận tới của sys.football_league thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+trận sắp của sys.football_league thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league lịch thi_đấu vào sys.date thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league trận_đấu vào sys.date thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league lịch trận_đấu vào sys.date thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league trận tới vào sys.date thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league lịch_đấu vào sys.date thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league lịch tới vào sys.date thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league sắp tới thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league gần tới thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league thời_gian đấu thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league thời_điểm đấu thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+lịch của giải sys.football_league thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+lịch giải đấu sys.football_league ra_sao --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+
+tỉ_số của sys.football_league là bao_nhiêu --- # --- schema:hasMatch[schema:vsResult]@football_league
+kết_quả của sys.football_league là bao_nhiêu --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+tỷ_số của sys.football_league là bao_nhiêu --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league thắng thua thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+sys.football_league kết_quả thắng hay thua thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+
+kết_quả sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+kết_quả trận sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+kết_quả đá banh sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+kết_quả sys.football_league thế_nào --- # --- schema:hasClub[schema:atPlace]@football_league
+kết_quả thi_đấu sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+bảng xếp_hạng của sys.football_league thế_nào --- # --- schema:hasClub[schema:atPlace]@football_league
+danh_sách xếp_hạng của sys.football_league thế_nào --- # --- schema:hasClub[schema:atPlace]@football_league
+bảng điểm của sys.football_league thế_nào --- # --- schema:hasClub[schema:atPlace]@football_league
+top của sys.football_league thế_nào --- # --- schema:hasClub[schema:atPlace]@football_league
+đứng top của sys.football_league thế_nào --- # --- schema:hasClub[schema:atPlace]@football_league
+đội nào đứng đầu của sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+đội nào dẫn_đầu sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+thứ_hạng của sys.football_league thế_nào --- # --- schema:hasClub[schema:atPlace]@football_league
+thứ_hạng của sys.football_club trong sys.football_league thế_nào --- # --- schema:hasClub[schema:atPlace]@football_league
+sys.football_club đứng thứ mấy trong sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+sys.football_club xếp thứ mấy trong sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+đội sys.football_club xếp thứ mấy trong sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+đội_bóng sys.football_club đứng thứ mấy trong sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+câu_lạc_bộ bóng_đá sys.football_club thứ hạng mấy trong sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+câu_lạc_bộ sys.football_club đứng thứ mấy trong sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+câu_lạc_bộ đứng vị_trí sys.number_ordinal trong sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+đội_bóng đứng vị_trí sys.number_ordinal trong sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+đội bóng_đá xếp_hạng sys.number_ordinal trong sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+câu_lạc_bộ xếp sys.number_ordinal trong sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+
+đội nào vô_địch sys.football_league --- # --- schema:currentChampion@football_league
+đội đương_kim của sys.football_league là đội nào --- # --- schema:currentChampion@football_league
+đội đương_kim vô_địch của sys.football_league là đội nào --- # --- schema:currentChampion@football_league
+đội đương_kim vô_địch hiện_tại của sys.football_league là đội nào --- # --- schema:currentChampion@football_league
+đội bóng_đá vô_địch hiện_tại của sys.football_league là đội nào --- # --- schema:currentChampion@football_league
+câu_lạc_bộ bóng_đá vô_địch của sys.football_league là đội nào --- # --- schema:currentChampion@football_league
+đương_kim vô_địch của sys.football_league là đội nào --- # --- schema:currentChampion@football_league
+đội_bóng vô_địch của sys.football_league là đội nào --- # --- schema:currentChampion@football_league
+câu_lạc_bộ vô_địch hiện_tại của sys.football_league là đội nào --- # --- schema:currentChampion@football_league
+câu_lạc_bộ đương_kim vô_địch của sys.football_league là đội nào --- # --- schema:currentChampion@football_league
+câu_lạc_bộ bóng_đá đương_kim vô_địch hiện_tại của sys.football_league là đội nào --- # --- schema:currentChampion@football_league
+đội_bóng nào là đương_kim vô_địch hiện_tại của sys.football_league --- # --- schema:currentChampion@football_league

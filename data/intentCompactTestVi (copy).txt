@@ -1,0 +1,19 @@
+sys.football_player giữ vị_trí gì --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sys.football_player đang đá vị_trí nào --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sys.football_player đang thi_đấu cho vị_trí gì --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sys.football_player chơi ở đội_bóng đá nào --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sys.football_player thi_đấu cho câu_lạc_bộ bóng_đá nào --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sys.football_player có bao_nhiêu dev.football_player_honour --- # --- schema:hasHonour[schema:honourTitle]@football_player
+
+sys.football_player đá ở nước nào  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+nước nào sys.football_player đang thi đấu cho  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+sys.football_player chơi cho nước nào  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+
+đội sys.football_club có cầu_thủ nào áo số sys.number --- # --- schema:hasMember[schema:sportNumber]@football_club
+ai giữ áo số sys.number tại sys.football_club --- # --- schema:hasMember[schema:sportNumber]@football_club
+số áo sys.number của sys.football_club --- # --- schema:hasMember[schema:sportNumber]@football_club
+
+bảng xếp_hạng sys.football_league --- # --- schema:hasClub[schema:atPlace]@football_league
+đội nào đương_kim vô_địch sys.football_league --- # --- schema:currentChampion@football_league
+lịch của giải sys.football_league thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+

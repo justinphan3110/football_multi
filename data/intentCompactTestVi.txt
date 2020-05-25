@@ -1,0 +1,52 @@
+sysfootballplayer giữ vị_trí gì --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sysfootballplayer đang đá vị_trí nào --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sysfootballplayer đang thi_đấu cho vị_trí gì --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player
+sysfootballplayer chơi ở đội_bóng đá nào --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sysfootballplayer thi_đấu cho câu_lạc_bộ bóng_đá nào --- # --- schema:isMemberOf[schema:isInClub]@football_player
+sysfootballplayer có bao_nhiêu devfootballplayerhonour --- # --- schema:hasHonour[schema:honourTitle]@football_player
+
+sysfootballplayer đá ở nước nào  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+nước nào sysfootballplayer đang thi đấu cho  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+sysfootballplayer chơi cho nước nào  --- # --- schema:hasPlayerProfile[schema:hasNationality]@football_player
+
+đội sysfootballclub có cầu_thủ nào áo số sysnumber --- # --- schema:hasMember[schema:sportNumber]@football_club
+ai giữ áo số sysnumber tại sysfootballclub --- # --- schema:hasMember[schema:sportNumber]@football_club
+số áo sysnumber của sysfootballclub --- # --- schema:hasMember[schema:sportNumber]@football_club
+
+bảng xếp_hạng sysfootballleague --- # --- schema:hasClub[schema:atPlace]@football_league
+đội nào đương_kim vô_địch sysfootballleague --- # --- schema:currentChampion@football_league
+lịch của giải sysfootballleague thế_nào --- # --- schema:hasMatch[schema:vsPointInTime]@football_league
+
+
+cầu_thủ giá_trị chuyển_nhượng sysage --- # --- schema:hasAge@football_player|schema:hasMarketValue[schema:hasCurrentValue]@football_player
+cầu_thủ sysage có giá_trị chuyển_nhượng --- # --- schema:hasAge@football_player|schema:hasMarketValue[schema:hasCurrentValue]@football_player
+cầu_thủ sysage giá_trị --- # --- schema:hasAge@football_player|schema:hasMarketValue[schema:hasCurrentValue]@football_player
+cầu_thủ sysage giá_trị chuyển_nhượng cao_nhất --- # --- schema:hasAge@football_player|schema:hasMarketValue[schema:hasCurrentValue]@football_player
+cầu_thủ sysage trị_giá cao_nhất --- # --- schema:hasAge@football_player|schema:hasMarketValue[schema:hasCurrentValue]@football_player
+cầu_thủ sysage có giá cao_nhất --- # --- schema:hasAge@football_player|schema:hasMarketValue[schema:hasCurrentValue]@football_player
+cầu_thủ sysage có giá bao nhiêu --- # --- schema:hasAge@football_player|schema:hasMarketValue[schema:hasCurrentValue]@football_player
+cầu_thủ sysage có giá_tiền --- # --- schema:hasAge@football_player|schema:hasMarketValue[schema:hasCurrentValue]@football_player
+giá_tiền cầu_thủ sysage --- # --- schema:hasAge@football_player|schema:hasMarketValue[schema:hasCurrentValue]@football_player
+cầu_thủ có sysage đắt giá nhất --- # --- schema:hasAge@football_player|schema:hasMarketValue[schema:hasCurrentValue]@football_player
+giá_trị cầu_thủ có sysage --- # --- schema:hasAge@football_player|schema:hasMarketValue[schema:hasCurrentValue]@football_player
+
+cầu_thủ ghi bàn đá cho đội tuyển --- # --- schema:hasTotalGoals[schema:hasGoals]@football_player|schema:hasPlayerProfile[schema:hasNationality]@football_player
+cầu thủ đá cho quốc gia ghi bàn --- # --- schema:hasTotalGoals[schema:hasGoals]@football_player|schema:hasPlayerProfile[schema:hasNationality]@football_player
+cầu thủ có số bàn thắng đá cho nước --- # --- schema:hasTotalGoals[schema:hasGoals]@football_player|schema:hasPlayerProfile[schema:hasNationality]@football_player
+sysfootballplayer đá cho nước có số lần chọc thủng lưới --- # --- schema:hasTotalGoals[schema:hasGoals]@football_player|schema:hasPlayerProfile[schema:hasNationality]@football_player
+cầu thủ sút vào đang đá cho quốc gia --- # --- schema:hasTotalGoals[schema:hasGoals]@football_player|schema:hasPlayerProfile[schema:hasNationality]@football_player
+sysfootballplayer đá cho quốc gia syscountry có số bàn --- # --- schema:hasTotalGoals[schema:hasGoals]@football_player|schema:hasPlayerProfile[schema:hasNationality]@football_player
+
+sysfootballplayer sinh ra vào thời điểm nào --- # --- schema:hasPlayerProfile[schema:hasDOB]@football_player
+cầu thủ chơi ở vị trí devfootballmainpostion tại sysfootballclub --- # --- schema:hasPlayer[schema:playAtPosition]@football_club
+cầu thủ sinh vào sysdate và chơi ở vị trí devfootballpostion --- # --- schema:hasPlayerProfile[schema:hasPosition]@football_player|schema:hasPlayerProfile[schema:hasDOB]@football_player
+
+sự góp mặt của sysfootballplayer trên sân đấu mấy lần --- # --- schema:hasTotalStats[schema:hasAppearances]@football_player
+số lần cản phá bóng của sysfootballplayer là bao nhiêu --- # --- schema:hasTotalStats[schema:hasGoalConceded]@football_player
+hiệu suất ghi bàn trên một phút của sysfootballplayer --- # --- schema:hasTotalStats[schema:hasMinPerGoal]@football_player
+sysfootballplayer đã ra sân thi đấu bao nhiêu phút --- # --- schema:hasTotalStats[schema:hasMinPlayed]@football_player
+sysfootballplayer làm phản bao nhiêu quả vào lưới nhà --- # --- schema:hasTotalStats[schema:hasOwnGoals]@football_player
+số lần kiến tạo của sysfootballplayer --- # --- schema:hasTotalStats[schema:hasAssists]@football_player
+số bàn thắng từ lần phạt đền của sysfootballplayer --- # --- schema:hasTotalStats[schema:hasPenGoals]@football_player
+sysfootballplayer bị cảnh cáo thi đấu mấy lần --- # --- schema:hasTotalStats[schema:hasYellowCards]@football_player
+sysfootballplayer bị truất quyền thi đấu bao nhiêu lần --- # --- schema:hasTotalStats[schema:hasRedCards]@football_player
